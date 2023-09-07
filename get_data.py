@@ -12,9 +12,8 @@ def date_range(start_date, end_date):
 	for n in range(int((end_date-start_date).days)):
 		yield start_date + datetime.timedelta(n)
 
-
-#date = "2023-09-05"
-year = 2006
+# update year variable to the required year data
+year = 2023
 start_date = datetime.date(year,1,1)
 end_date = datetime.date(year+1,1,1)
 
